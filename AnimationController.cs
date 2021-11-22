@@ -11,7 +11,7 @@ public class AnimationController : MonoBehaviour
     {
         Anim = GetComponent<Animation>();
     }
-    public void Oprndoor()
+    public void Opendoor()
     {
         Anim.Play("open");
     }
